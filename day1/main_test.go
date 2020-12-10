@@ -7,7 +7,7 @@ import (
 )
 
 func TestMain(t *testing.T) {
-	arr := []int{1721, 979, 366, 299, 675, 1456}
+	arr := []int{299, 366, 675, 979, 1721, 1456}
 
 	t.Run("Passing asset arr to FindSumPair should return 514579", func(t *testing.T) {
 		expectedResult := 514579
